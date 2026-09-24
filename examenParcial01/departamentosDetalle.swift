@@ -12,9 +12,9 @@ struct departamentosDetalle: View {
     let direccion: String
     let departamento: String
     let nombre: String
-    let calificacion: String
-    let precio: String
-    let superficie: String
+    let calificacion: CGFloat
+    let precio: Int
+    let superficie: CGFloat
     
     @State var estadoCorazon: Bool = false
     @State var estadoReserva: Bool = false
